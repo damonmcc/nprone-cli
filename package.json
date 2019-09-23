@@ -1,26 +1,61 @@
 {
-  "name": "npr-one",
-  "version": "1.6.1",
-  "description": "A NPR One command line client",
-  "main": "index.js",
-  "bin": "./cli",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adafruit/nprone_raspi.git"
-  },
-  "keywords": [
-    "npr",
-    "one",
-    "radio",
-    "cli",
-    "raspberry",
-    "pi",
-    "raspi",
-    "pi"
+  "_args": [
+    [
+      {
+        "name": "npr-one",
+        "raw": "npr-one",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      ""
+    ]
   ],
-  "author": "Todd Treece <todd@uniontownlabs.org>",
-  "license": "MIT",
+  "_from": "npr-one@latest",
+  "_id": "npr-one@1.6.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/npr-one",
+  "_nodeVersion": "6.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/npr-one-1.6.1.tgz_1468270270208_0.9768152893520892"
+  },
+  "_npmUser": {
+    "email": "todd@uniontownlabs.org",
+    "name": "toddtreece"
+  },
+  "_npmVersion": "3.9.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "npr-one",
+    "raw": "npr-one",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/npr-one/-/npr-one-1.6.1.tgz",
+  "_shasum": "9f740fa2085ea9da249cf885b94c6f355c8e891b",
+  "_shrinkwrap": null,
+  "_spec": "npr-one",
+  "_where": "",
+  "author": {
+    "email": "todd@uniontownlabs.org",
+    "name": "Todd Treece"
+  },
+  "bin": {
+    "npr-one": "./cli"
+  },
+  "bugs": {
+    "url": "https://github.com/adafruit/nprone_raspi/issues"
+  },
   "dependencies": {
+    "adafruit-mpr121": "^1.0.0",
     "chalk": "^1.1.3",
     "dotenv": "^1.2.0",
     "gauge": "^2.2.1",
@@ -34,7 +69,42 @@
     "touch": "^1.0.0",
     "wget-improved": "^1.3.0"
   },
+  "description": "A NPR One command line client",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "9f740fa2085ea9da249cf885b94c6f355c8e891b",
+    "tarball": "https://registry.npmjs.org/npr-one/-/npr-one-1.6.1.tgz"
+  },
+  "gitHead": "53f718d7cb8b52446d58a35e84b841c057001d6c",
+  "homepage": "https://github.com/adafruit/nprone_raspi#readme",
+  "keywords": [
+    "npr",
+    "one",
+    "radio",
+    "cli",
+    "raspberry",
+    "pi",
+    "raspi",
+    "pi"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "todd@uniontownlabs.org",
+      "name": "toddtreece"
+    }
+  ],
+  "name": "npr-one",
   "optionalDependencies": {
     "adafruit-mpr121": "^1.0.0"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adafruit/nprone_raspi.git"
+  },
+  "scripts": {},
+  "version": "1.6.1"
 }
