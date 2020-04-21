@@ -1,6 +1,15 @@
-# NPR One CLI
+# Old News (based on NPR One CLI)
 
-This is a simple command line based NPR One client for OS X and Linux. A full tutorial with setup instructions can be found [in the Adafruit Learning System](https://learn.adafruit.com/raspberry-pi-zero-npr-one-radio).
+This project is a conversion of a vintage AM/FM radio (Lloyds, Model# J202B) to an internet radio dedicated to NPR content.
+
+![Original radio, 1](https://i.ebayimg.com/images/g/MGwAAOSwNrNdECSK/s-l1600.jpg)
+![Original radio, 2](https://i.ebayimg.com/images/g/X~kAAOSwiG1dECSE/s-l1600.jpg)
+![Original radio disassembled](https://photos.app.goo.gl/zphseqbzbzLxXA1V9)
+
+
+This builds upon a command line based NPR One client. A full tutorial with setup instructions of that original work can be found [in the Adafruit Learning System](https://learn.adafruit.com/raspberry-pi-zero-npr-one-radio).
+
+Details/instructions for Old News are in progress. The contents of the README from the project is included below. 
 
 ## Installation
 
